@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiosk", "Kiosk\Kiosk.csproj", "{EB3D364E-460D-4286-84BE-3DB5CC1862CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{ECCF04C7-330B-4F25-9EA4-E150C9BD4051}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{200E6086-F8C9-4FE0-A966-35DC5161C1DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAcess", "DataAcess", "{B534A62A-FB20-412C-8F14-35B3D0BC3495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paul.Maui", "Paul.Maui\Paul.Maui.csproj", "{7B6EED4A-2743-4FDA-B164-AAA767186EC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB3D364E-460D-4286-84BE-3DB5CC1862CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3D364E-460D-4286-84BE-3DB5CC1862CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3D364E-460D-4286-84BE-3DB5CC1862CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3D364E-460D-4286-84BE-3DB5CC1862CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6EED4A-2743-4FDA-B164-AAA767186EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6EED4A-2743-4FDA-B164-AAA767186EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6EED4A-2743-4FDA-B164-AAA767186EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6EED4A-2743-4FDA-B164-AAA767186EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB3D364E-460D-4286-84BE-3DB5CC1862CF} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
+		{7B6EED4A-2743-4FDA-B164-AAA767186EC3} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83E473E3-9B7A-42EB-8605-7676C17FE6EC}
+	EndGlobalSection
+EndGlobal
