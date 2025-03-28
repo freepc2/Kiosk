@@ -1,4 +1,4 @@
-﻿namespace Kiosk
+﻿namespace Kiosk.Starter
 {
     public partial class AppShell : Shell
     {

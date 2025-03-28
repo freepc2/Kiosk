@@ -1,4 +1,5 @@
-﻿using Paul.Maui.Controls;
+﻿using Kiosk.Views;
+using Paul.Maui.Controls;
 using Prism.Ioc;
 using System;
 using System.Collections.Generic;

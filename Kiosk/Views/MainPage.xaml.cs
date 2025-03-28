@@ -2,9 +2,9 @@
 using System.ComponentModel;
 using Paul.Maui.Composition;
 
-namespace Kiosk
+namespace Kiosk.Views
 {
-    public partial class MainPage : PaulContentPage
+    public partial class MainPage : MauiContentPage
     {
         int count = 0;
 

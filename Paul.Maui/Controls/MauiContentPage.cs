@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Paul.Maui.Controls
 {
-    public abstract class PaulContentPage : ContentPage, IViewable
+    public abstract class MauiContentPage : ContentPage, IViewable
     {
         private readonly AutoWireManager autoWireManager;
         public VisualElement View => autoWireManager.GetView();
 
         public INotifyPropertyChanged ViewModel => autoWireManager.GetDataContext();
-        public PaulContentPage()
+        public MauiContentPage()
         {
             autoWireManager = new AutoWireManager();
             autoWireManager.InitializeAutoWire(this);

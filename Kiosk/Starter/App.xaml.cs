@@ -1,7 +1,7 @@
 ﻿using Prism.Ioc;
 using Microsoft.Maui.Controls;
 
-namespace Kiosk
+namespace Kiosk.Starter
 {
     public partial class App : Application
     {
